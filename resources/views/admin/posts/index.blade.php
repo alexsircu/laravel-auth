@@ -9,9 +9,6 @@
             <th>ID</th>
             <th>Titolo</th>
             <th>Data creazione</th>
-            <th></th>
-            <th></th>
-            <th></th>
           </tr>
         </thead>
         <tbody>

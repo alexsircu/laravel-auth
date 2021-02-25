@@ -15,6 +15,7 @@
           <textarea name="text" id="text" class="form-control" cols="30" rows="5" placeholder="Inserisci il testo">{{ old('text') }}</textarea>
         </div>
         <input type="submit" class="btn btn-primary" value="Aggiungi">
+        <a href="{{ route('admin.posts.index') }}" class="btn btn-primary">Indietro</a>
       </form>
     </div>
 @endsection
