@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/posts', 'PostController@index')->name('posts.index');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -33,4 +35,5 @@ Route::prefix('admin')  //prefisso della rotta
         //posso inserire anche altre rotte perchè sono dentro ad un gruppo di rotte
 
 });
+
 
