@@ -7,7 +7,7 @@
         @foreach ($posts as $post)
         <div class="card text-white bg-primary">
           <div class="card-header">
-            <h2>{{ $post->title }}</h2>
+            <h2><a href="{{ route('posts.show', $post->slug) }}">{{ $post->title }}</a></h2>
             <small>{{ $post->user->name }}</small>
           </div>
           <div class="card-body">
